@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Geovani Gomes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#sobre-mim" class="nav-link">Sobre Mim</a></li>
+                <li class="active"><a href="#skills" class="nav-link">Conhecimentos</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+                <li class="dark-mode-toggle">
+                    <a href="#" onclick="toggleDarkMode()">
+                        <img src="img/moon.png" alt="emoji lua p/ alterar ao modo noturno" class="moon-emoji">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="portfolio-title">Portfólio</div>
+
+        <div class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Geovani Gomes</h1>
+                    <p><span class="animated-text">Desenvolvedor</span></p>
+                    <a href="https://drive.google.com/file/d/1DxliTZXGuXGP7cedCn6eR7dCryOxomKX/view" class="btn" target="_blank">Baixar CV</a>
+                </div>
+                <div class="profile-pic-container">
+                    <img src="img/eu.png" alt="Foto" class="profile-pic">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mim" class="section">
+            <h2>Sobre mim</h2>
+            <p class="description">Entusiasta de tecnologia em busca de uma oportunidade profissional em desenvolvimento mobile ou web. Motivado por aprender e aplicar novos conhecimentos, com dedicação em desenvolver habilidades técnicas e contribuir para projetos inovadores.</p>
+        </section>
+        
+        <section id="skills" class="section">
+            <h2>Meus conhecimentos</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="img/html.png" alt="HTML" class="skill-icon html-icon">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="img/css.png" alt="CSS" class="skill-icon css-icon">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="img/js.png" alt="JavaScript" class="skill-icon js-icon">
+                    <p>JS</p>
+                </div>
+                <div class="skill">
+                    <img src="img/java.png" alt="Java" class="skill-icon java-icon">
+                </div>
+                <div class="skill">
+                    <img src="img/mysql.png" alt="MySQL" class="skill-icon mysql-icon">
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2>Projetos</h2>
+            <div class="images-container">
+                <div class="projeto">
+                    <img src="img/imagemcompletaEconomiCar.png" alt="Imagem 1" class="image-1">
+                    <a href="https://geovani-gomes.github.io/EconomiCar/" target="_blank">
+                        <button class="btn-projeto-economicar">Ver projeto</button>
+                    </a>
+                    <a href="https://github.com/Geovani-Gomes/EconomiCar.git" alt="Imagem 1" class="image-1">   
+                        <button class="btn-projeto-economicar2">Acessar repositório</button>
+                    </a>
+                </div>
+                <div class="projeto">
+                    <img src="img/site academia.png" alt="Imagem 2" class="image-2">
+                    <a href="https://geovani-gomes.github.io/ProjetoAcademia/" target="_blank">
+                        <button class="btn-projeto-academia">Ver projeto</button>
+                    </a>
+                    <a href="https://github.com/Geovani-Gomes/ProjetoAcademia.git" alt="Imagem 2" class="image-2">
+                        <button class="btn-projeto-academia2">Acessar repositório</button>
+                </div>
+                <div class="projeto">
+                    <img src="img/TelaDeCadastro.png" alt="Imagem 3" class="image-3-cadastro">
+                    <a href="https://github.com/Geovani-Gomes/CadastroDeContato.git" alt="Imagem 3" class="image-3">
+                        <button class="btn-projeto-cadastro2">Acessar repositório</button>
+                    </a>    
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contato" class="section">
+            <h2>Contato e links relevantes</h2>
+            <h3>Email: geovani.gomes012@gmail.com</h3>
+            <h3>Telefone: (11) 97576-1450</h3>
+            <h3>Linkedin: <a href="https://www.linkedin.com/in/geovani-gomes-16019b325/" class="github-link">https://www.linkedin.com/in/geovani-gomes-16019b325/</a></h3>
+            <h3>Github: <a href="https://github.com/Geovani-Gomes" class="github-link">https://github.com/Geovani-Gomes</a></h3>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; Geovani Gomes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
